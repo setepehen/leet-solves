@@ -1,4 +1,6 @@
 function containsDuplicate(nums: number[]): boolean {
+
+    // O(n) time O(n) space
     
     // define set
     let numsSet = new Set<number>();
