@@ -1,5 +1,7 @@
 function isAnagram(s: string, t: string): boolean {
 
+    // time O(n), space O(n)
+
     let sMap = new Map<string, number>();
     let tMap = new Map<string, number>();
 
